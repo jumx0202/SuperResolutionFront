@@ -1,0 +1,12 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Helvetica', 'Arial', sans-serif;  /* 可以设置一个常见的字体 */
+  font-weight: normal;  /* 保持正常字体，但确保不影响Element Plus组件的字体 */
+}
